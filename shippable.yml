@@ -1,0 +1,8 @@
+language: none
+build:
+  ci:
+    - wget -O - https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1_Linux-64bit.tar.gz | tar xzf -
+    - mv hugo_0.18.1_linux_amd64/hugo_0.18.1_linux_amd64 /usr/local/bin/hugo
+    - chmod +x /usr/local/bin/hugo
+    - rm -rf hugo_0.18.1_linux_amd64
+    - hugo
