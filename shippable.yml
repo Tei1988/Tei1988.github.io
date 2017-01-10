@@ -5,13 +5,19 @@ build:
     - mv hugo_0.18.1_linux_amd64/hugo_0.18.1_linux_amd64 /usr/local/bin/hugo
     - chmod +x /usr/local/bin/hugo
     - rm -rf hugo_0.18.1_linux_amd64
-    - mkdir public
+    - git clone https://github.com/Tei1988/Tei1988.github.io public
     - cd public
-    - git clone https://github.com/Tei1988/Tei1988.github.io master
+    - git config user.name 'Shippable Build'
+    - git config user.email 'build@shippable.com'
+    - ls -al
     - rm -r *
+    - ls -al
     - cd -
+    - ls -al
     - hugo
+    - ls -al
     - cd public
+    - ls -al
     - git add -A
-    - git commit -m "Built with ${SHIPPABLE_BUILD_ID}"
+    - git commit -m "Built with ${SHIPPABLE_BUILD_ID} by Shippable"
     - git push
