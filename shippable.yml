@@ -6,7 +6,7 @@ build:
     - chmod +x /usr/local/bin/hugo
     - rm -rf hugo_0.18.1_linux_amd64
     - mkdir public
-    - cd pubilc
+    - cd public
     - git clone https://github.com/Tei1988/Tei1988.github.io master
     - rm -r *
     - cd -
