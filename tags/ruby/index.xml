@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruby on 興味のあるもの</title>
+    <link>http://tei1988.github.io/tags/ruby/index.xml</link>
+    <description>Recent content in Ruby on 興味のあるもの</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;2017</copyright>
+    <atom:link href="http://tei1988.github.io/tags/ruby/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>retryable</title>
+      <link>http://tei1988.github.io/post/retryable/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/retryable/</guid>
+      <description>&lt;p&gt;リトライ処理をブロックでかける。よさげ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tapp</title>
+      <link>http://tei1988.github.io/post/tapp/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/tapp/</guid>
+      <description>&lt;p&gt;メソッドチェーンでデバッグ出力が出せる。良い。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronic Component on 興味のあるもの</title>
+    <link>http://tei1988.github.io/tags/electronic-component/index.xml</link>
+    <description>Recent content in Electronic Component on 興味のあるもの</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;2017</copyright>
+    <atom:link href="http://tei1988.github.io/tags/electronic-component/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>BP5293-33</title>
+      <link>http://tei1988.github.io/post/bp5293-33/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/bp5293-33/</guid>
+      <description>&lt;p&gt;7〜26V &lt;i class=&#34;fa fa-arrow-right&#34;&gt;&lt;/i&gt; 3.3V&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BP5293-50</title>
+      <link>http://tei1988.github.io/post/bp5293-50/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/bp5293-50/</guid>
+      <description>&lt;p&gt;7〜26V &lt;i class=&#34;fa fa-arrow-right&#34;&gt;&lt;/i&gt; 5V&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RN42-I/RM</title>
+      <link>http://tei1988.github.io/post/rn42-irm/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/rn42-irm/</guid>
+      <description>&lt;p&gt;Bluetoothモジュール。3.3V駆動。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

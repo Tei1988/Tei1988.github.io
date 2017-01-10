@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>興味のあるもの</title>
+    <link>http://tei1988.github.io/index.xml</link>
+    <description>Recent content on 興味のあるもの</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;2017</copyright>
+    <lastBuildDate>Tue, 10 Jan 2017 18:30:11 +0900</lastBuildDate>
+    <atom:link href="http://tei1988.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Roomba Open Interface</title>
+      <link>http://tei1988.github.io/post/roomba-roi/</link>
+      <pubDate>Tue, 10 Jan 2017 18:30:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/roomba-roi/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://irobot.lv/uploaded_files/File/iRobot_Roomba_500_Open_Interface_Spec.pdf&#34;&gt;Roombaプロトコルの仕様書&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BP5293-33</title>
+      <link>http://tei1988.github.io/post/bp5293-33/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/bp5293-33/</guid>
+      <description>&lt;p&gt;7〜26V &lt;i class=&#34;fa fa-arrow-right&#34;&gt;&lt;/i&gt; 3.3V&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BP5293-50</title>
+      <link>http://tei1988.github.io/post/bp5293-50/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/bp5293-50/</guid>
+      <description>&lt;p&gt;7〜26V &lt;i class=&#34;fa fa-arrow-right&#34;&gt;&lt;/i&gt; 5V&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RN42-I/RM</title>
+      <link>http://tei1988.github.io/post/rn42-irm/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/rn42-irm/</guid>
+      <description>&lt;p&gt;Bluetoothモジュール。3.3V駆動。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>okhttp</title>
+      <link>http://tei1988.github.io/post/okhttp/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/okhttp/</guid>
+      <description>&lt;p&gt;JavaのHTTP+HTTP/2クライアント。よさげ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>retryable</title>
+      <link>http://tei1988.github.io/post/retryable/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/retryable/</guid>
+      <description>&lt;p&gt;リトライ処理をブロックでかける。よさげ。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>tapp</title>
+      <link>http://tei1988.github.io/post/tapp/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/tapp/</guid>
+      <description>&lt;p&gt;メソッドチェーンでデバッグ出力が出せる。良い。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
