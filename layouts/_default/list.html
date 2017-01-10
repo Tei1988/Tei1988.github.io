@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="row">
+  <div class="panel panel-primary" style="width: 100%">
+    <div class="panel-heading">
+      <h2 class="panel-title">{{ .Title }}</h2>
+    </div>
+    <div class="panel-body masonry">
+      {{ range .Data.Pages }}
+      <div class="card col-md-4">
+        <div class="card-block">
+          <h4 class="card-title">{{ .Title }}</h4>
+          {{ partial .Params.Template . }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

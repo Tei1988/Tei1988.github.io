@@ -1,0 +1,12 @@
+{{ range $taxonomy_name, $contents := .Site.Taxonomies }}
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2 class="panel-title">{{ $taxonomy_name }}</h2>
+  </div>
+  <div class="panel-body">
+    {{ range $key, $taxonomy := $contents }}
+    <a href="/{{ $taxonomy_name | pluralize | urlize }}/{{ $key | urlize }}" class="list-group-item">{{ $key }} <span class="badge badge-pill badge-default">{{ len $taxonomy }}</span></a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

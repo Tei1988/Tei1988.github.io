@@ -1,0 +1,10 @@
+defaultContentLanguage: "ja"
+baseURL: http://tei1988.github.io/
+title: 興味のあるもの
+author: Tei1988
+hasCJKLanguage: true
+params:
+  description:
+  copyright: '&copy;2017'
+  social:
+    github: Tei1988
