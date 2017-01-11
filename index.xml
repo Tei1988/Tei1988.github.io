@@ -79,5 +79,15 @@
 </description>
     </item>
     
+    <item>
+      <title>virtus</title>
+      <link>http://tei1988.github.io/post/virtus/</link>
+      <pubDate>Thu, 05 Jan 2017 17:04:11 +0900</pubDate>
+      
+      <guid>http://tei1988.github.io/post/virtus/</guid>
+      <description>&lt;p&gt;型を明示するので好き。変換なんかもするので、文字列なら〜…みたいな処理を書く必要も無く、スッキリしやすい。&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
