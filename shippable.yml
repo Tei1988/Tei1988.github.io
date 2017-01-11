@@ -1,7 +1,8 @@
 language: none
 env:
-  - HUGO_VERSION=0.18.1
-  - secure: FzY8vVnmOfsyy3TnmwpOeYtlMv87DofPFzs9PWlsbSKvAIl6gGZPQBnWNw4O48XEo0+ugio29PCHx8kYjXUGVA0eiFExpJdHOLNgsg/BsaqMNFoJTDnnHi9UhQ4VCl5dUW0/h+OFBJbASkr8ok6gZqndheXormswGMzYwfCgJ0QfWJt3WCSAJz56WC4aTdiTR8jBQ+egsT+qUNBXvj8SZNghWc5vFU3gmQvLJlu/G7R06LEODFYmuK9olzJIK5loXiX/LPic/TJhpEGmonDw3QXH4O+aT3omccKUsOfHw+dl/XpD3eNYAKnnOKDdlt0P/+c+oaXZNajWwFS4gkHd5A==
+  global:
+    - HUGO_VERSION=0.18.1
+    - secure: FzY8vVnmOfsyy3TnmwpOeYtlMv87DofPFzs9PWlsbSKvAIl6gGZPQBnWNw4O48XEo0+ugio29PCHx8kYjXUGVA0eiFExpJdHOLNgsg/BsaqMNFoJTDnnHi9UhQ4VCl5dUW0/h+OFBJbASkr8ok6gZqndheXormswGMzYwfCgJ0QfWJt3WCSAJz56WC4aTdiTR8jBQ+egsT+qUNBXvj8SZNghWc5vFU3gmQvLJlu/G7R06LEODFYmuK9olzJIK5loXiX/LPic/TJhpEGmonDw3QXH4O+aT3omccKUsOfHw+dl/XpD3eNYAKnnOKDdlt0P/+c+oaXZNajWwFS4gkHd5A==
 build:
   ci:
     - wget -O - https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xzf -
