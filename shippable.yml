@@ -1,23 +1,21 @@
 language: none
+env:
+  - HUGO_VERSION=0.18.1
+  - secure: I8lJIv1ntPHMyc+FrpyL7AHZwe7pZZoyyPPLTHrGltTR0VePI7+KuEJ06hgqogcHclTE9wYHsviZvo06RBzRxY561/UqWWcLcmCVHgQC4aUhMqtqn9UCCRI979Jv+7/0+dReZLSsWr4uWoQ3FJ93uZBQFfD7EOcETFn23M21ZxeaYMc+e8DDdeEjvUOUXrXH0I7bU7/YR0ewjo5ieIFDd0oeeL812GDKOgJi7ox1HNEIbrCSBYTw8YKShtEnNwY4DSVPxTvGxkm9gXWKxg+As+UeewVly1jeNcoO+cBLydSAshYlSaaovB0302aN0qHqHUuvDX/Si8G1C0/6VaNtLg==
 build:
   ci:
-    - wget -O - https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1_Linux-64bit.tar.gz | tar xzf -
-    - mv hugo_0.18.1_linux_amd64/hugo_0.18.1_linux_amd64 /usr/local/bin/hugo
+    - wget -O - https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xzf -
+    - mv hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 /usr/local/bin/hugo
     - chmod +x /usr/local/bin/hugo
-    - rm -rf hugo_0.18.1_linux_amd64
-    - git clone https://github.com/Tei1988/Tei1988.github.io public
+    - rm -rf hugo_${HUGO_VERSION}_linux_amd64
+    - git clone https://${ORG_NAME}:${GITHUB_ACCESS_TOKEN}@github.com/${REPO_FULL_NAME} public
     - cd public
     - git config user.name 'Shippable Build'
     - git config user.email 'build@shippable.com'
-    - ls -al
     - rm -r *
-    - ls -al
     - cd -
-    - ls -al
     - hugo
-    - ls -al
     - cd public
-    - ls -al
     - git add -A
     - git commit -m "Built with ${SHIPPABLE_BUILD_ID} by Shippable"
-    - git push
+    - git push origin master
