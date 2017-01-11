@@ -5,7 +5,7 @@ tags:
   - Electronic Component
 categories:
   - Electronics
-template: parts.html
+template: component.html
 item:
   maker: Microchip Technology Inc.
   model: RN42-I/RM
