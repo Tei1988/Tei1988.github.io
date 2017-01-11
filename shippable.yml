@@ -18,5 +18,5 @@ build:
     - hugo
     - cd public
     - git add -A
-    - git commit -m "Built with ${SHIPPABLE_BUILD_ID} by Shippable"
+    - git commit -m "${COMMIT_MESSAGE}"
     - git push origin master
