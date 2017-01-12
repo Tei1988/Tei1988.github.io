@@ -10,13 +10,6 @@ build:
     - chmod +x /usr/local/bin/hugo
     - rm -rf hugo_${HUGO_VERSION}_linux_amd64
     - git clone https://${ORG_NAME}:${GITHUB_ACCESS_TOKEN}@github.com/${REPO_FULL_NAME} public
-    - cd public
-    - git config user.name 'Shippable Build'
-    - git config user.email 'build@shippable.com'
-    - rm -r *
-    - cd -
+    - cd public && git config user.name 'Shippable Build' && git config user.email 'build@shippable.com' && rm -r * && cd -
     - hugo
-    - cd public
-    - git add -A
-    - git commit -m "${COMMIT_MESSAGE}"
-    - git push origin master
+    - cd public && git add -A && git commit -m "${COMMIT_MESSAGE}" && git push origin master && cd -
