@@ -1,5 +1,5 @@
 ---
-date: 2017-01-05T17:04:11+09:00
+date: 2017-01-10
 title: virtus
 tags:
   - Ruby

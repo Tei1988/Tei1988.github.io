@@ -1,5 +1,5 @@
 ---
-date: 2017-01-10T18:30:11+09:00
+date: 2017-01-10
 title: Roomba Open Interface
 categories:
   - Electronics
