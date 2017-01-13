@@ -5,7 +5,7 @@
   </div>
   <div class="panel-body">
     {{ range $key, $taxonomy := $contents }}
-    <a href="/{{ $taxonomy_name | pluralize | urlize }}/{{ $key | urlize }}" class="list-group-item">{{ index $.Site.Data.taxonomies $key | default $key }} <span class="badge badge-pill badge-default">{{ len $taxonomy }}</span></a>
+    <a href="/{{ $taxonomy_name | pluralize | urlize }}/{{ $key | urlize }}/" class="list-group-item">{{ index $.Site.Data.taxonomies $key | default $key }} <span class="badge badge-pill badge-default">{{ len $taxonomy }}</span></a>
     {{ end }}
   </div>
 </div>
