@@ -12,10 +12,6 @@
   </url>
   
   <url>
-    <loc>http://tei1988.github.io/post/contributed-ruby-gems/</loc>
-  </url>
-  
-  <url>
     <loc>http://tei1988.github.io/tags/electronics/</loc>
     <priority>0</priority>
   </url>
@@ -23,6 +19,10 @@
   <url>
     <loc>http://tei1988.github.io/categories/electronics/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tei1988.github.io/post/pr-merged-ruby-gems/</loc>
   </url>
   
   <url>
