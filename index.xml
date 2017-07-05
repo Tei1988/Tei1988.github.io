@@ -20,6 +20,15 @@
     </item>
     
     <item>
+      <title>Contributed Ruby Gems</title>
+      <link>http://tei1988.github.io/post/contributed-ruby-gems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://tei1988.github.io/post/contributed-ruby-gems/</guid>
+      <description>PRがマージされたことのあるRuby Gemを並べています。自分用のメモです。 pressednet/lumberg 未実装APIの追加 (PR #113) MartijnSch/optimizely-gem 未実装APIの追加 PR #4 gimite/google-drive-ruby READMEの</description>
+    </item>
+    
+    <item>
       <title>Rails Memo</title>
       <link>http://tei1988.github.io/post/rails-memo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
