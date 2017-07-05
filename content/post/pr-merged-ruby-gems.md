@@ -1,5 +1,5 @@
 ---
-title: Contributed Ruby Gems
+title: PR Merged Ruby Gems
 tags:
   - Ruby
 categories:
