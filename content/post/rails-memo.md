@@ -12,5 +12,5 @@ Ruby on Rails関係で、覚えておきたい記事などをメモしていき�
 
 - [Rails SQL Injection](https://rails-sqli.org/)  
   ActiveRecordを使っていてあるあるなSQLインジェクションが纏められている。
-- [Rails セキュリティガイド](https://railsguides.jp/security.html)
+- [Rails セキュリティガイド](https://railsguides.jp/security.html)  
   よくある脆弱性の紹介と Railsでの対応方法が纏められている。
