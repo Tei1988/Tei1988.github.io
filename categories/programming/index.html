@@ -36,9 +36,9 @@
   </div>
   <div class="panel-body">
     
-    <a href="/categories/electronics/" class="list-group-item">電子工作 <span class="badge badge-pill badge-default">4</span></a>
+    <a href="/categories/electronics/" class="list-group-item">電子工作 <span class="badge badge-pill badge-default">1</span></a>
     
-    <a href="/categories/programming/" class="list-group-item">プログラミング <span class="badge badge-pill badge-default">5</span></a>
+    <a href="/categories/programming/" class="list-group-item">プログラミング <span class="badge badge-pill badge-default">2</span></a>
     
   </div>
 </div>
@@ -49,15 +49,9 @@
   </div>
   <div class="panel-body">
     
-    <a href="/tags/electronic-component/" class="list-group-item">電子部品 <span class="badge badge-pill badge-default">3</span></a>
+    <a href="/tags/electronics/" class="list-group-item">電子工作 <span class="badge badge-pill badge-default">1</span></a>
     
-    <a href="/tags/java/" class="list-group-item">Java <span class="badge badge-pill badge-default">1</span></a>
-    
-    <a href="/tags/javascript/" class="list-group-item">Javascript <span class="badge badge-pill badge-default">1</span></a>
-    
-    <a href="/tags/library/" class="list-group-item">ライブラリ <span class="badge badge-pill badge-default">5</span></a>
-    
-    <a href="/tags/ruby/" class="list-group-item">Ruby <span class="badge badge-pill badge-default">3</span></a>
+    <a href="/tags/ruby/" class="list-group-item">Ruby <span class="badge badge-pill badge-default">2</span></a>
     
   </div>
 </div>
@@ -75,11 +69,30 @@
       
       <div class="card col-md-4">
         <div class="card-block">
-          <h4 class="card-title">RxJS</h4>
+          <h4 class="card-title"><a href="http://tei1988.github.io/post/my-awesome-ruby-gems/">Awesome Ruby Gems</a></h4>
           <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/reactive-extensions/rxjs">Reactive-Extensions/RxJS</a><br />
-  <p>RxをJSで。RxJavaもやってみたいので、似た考え方を覚えるためにも使っていきたい。</p>
+  <p>便利だと思ったRuby Gemを並べていきます。自分用のメモも兼ねています。</p>
+
+<p><strong>リトライ処理</strong></p>
+
+<ul>
+<li><i class="fa fa-github"></i> <a href="https://github.com/nfedyashev/retryable">nfedyashev/retryable</a><br />
+リトライ処理をブロックで書ける。</li>
+</ul>
+
+<p><strong>モデル拡張</strong></p>
+
+<ul>
+<li><i class="fa fa-github"></i> <a href="https://github.com/solnic/virtus">solnic/virtus</a><br />
+型を明示できて好き。変換なんかもするので、初期化時に型変換するような処理を書く必要が無く、スッキリしやすい。</li>
+</ul>
+
+<p><strong>デバッグなど</strong></p>
+
+<ul>
+<li><i class="fa fa-github"></i> <a href="https://github.com/esminc/tapp">esminc/tapp</a><br />
+<code>.tap { |v| pp v }</code>みたいなことを<code>.tapp</code>で実現できる！プリントデバッグに便利。</li>
+</ul>
 
 </p>
 
@@ -88,50 +101,18 @@
       
       <div class="card col-md-4">
         <div class="card-block">
-          <h4 class="card-title">retryable</h4>
+          <h4 class="card-title"><a href="http://tei1988.github.io/post/rails-memo/">Rails Memo</a></h4>
           <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/nfedyashev/retryable">nfedyashev/retryable</a><br />
-  <p>リトライ処理をブロックでかける。よさげ。</p>
+  <p>Ruby on Rails関係で、覚えておきたい記事などをメモしていきます。</p>
 
-</p>
+<p><strong>セキュリティ関係</strong></p>
 
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">tapp</h4>
-          <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/esminc/tapp">esminc/tapp</a><br />
-  <p>メソッドチェーンでデバッグ出力が出せる。良い。</p>
-
-</p>
-
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">virtus</h4>
-          <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/solnic/virtus">solnic/virtus</a><br />
-  <p>型を明示するので好き。変換なんかもするので、文字列なら〜…みたいな処理を書く必要も無く、スッキリしやすい。</p>
-
-</p>
-
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">okhttp</h4>
-          <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/square/okhttp">square/okhttp</a><br />
-  <p>JavaのHTTP+HTTP/2クライアント。よさげ。</p>
+<ul>
+<li><a href="https://rails-sqli.org/">Rails SQL Injection</a><br />
+ActiveRecordを使っていてあるあるなSQLインジェクションが纏められている。</li>
+<li><a href="https://railsguides.jp/security.html">Rails セキュリティガイド</a>
+よくある脆弱性の紹介と Railsでの対応方法が纏められている。</li>
+</ul>
 
 </p>
 

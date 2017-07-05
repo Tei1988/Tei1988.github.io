@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.18.1" />
+	<meta name="generator" content="Hugo 0.24.1" />
   <title>興味のあるもの</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/css/tether-theme-basic.min.css" integrity="sha256-0TQyTp/HqEHx0cA4JnlGzgWqmQaUuRFiZIakmDa6tgg=" crossorigin="anonymous" />
@@ -37,9 +37,9 @@
   </div>
   <div class="panel-body">
     
-    <a href="/categories/electronics/" class="list-group-item">電子工作 <span class="badge badge-pill badge-default">4</span></a>
+    <a href="/categories/electronics/" class="list-group-item">電子工作 <span class="badge badge-pill badge-default">1</span></a>
     
-    <a href="/categories/programming/" class="list-group-item">プログラミング <span class="badge badge-pill badge-default">5</span></a>
+    <a href="/categories/programming/" class="list-group-item">プログラミング <span class="badge badge-pill badge-default">2</span></a>
     
   </div>
 </div>
@@ -50,15 +50,9 @@
   </div>
   <div class="panel-body">
     
-    <a href="/tags/electronic-component/" class="list-group-item">電子部品 <span class="badge badge-pill badge-default">3</span></a>
+    <a href="/tags/electronics/" class="list-group-item">電子工作 <span class="badge badge-pill badge-default">1</span></a>
     
-    <a href="/tags/java/" class="list-group-item">Java <span class="badge badge-pill badge-default">1</span></a>
-    
-    <a href="/tags/javascript/" class="list-group-item">Javascript <span class="badge badge-pill badge-default">1</span></a>
-    
-    <a href="/tags/library/" class="list-group-item">ライブラリ <span class="badge badge-pill badge-default">5</span></a>
-    
-    <a href="/tags/ruby/" class="list-group-item">Ruby <span class="badge badge-pill badge-default">3</span></a>
+    <a href="/tags/ruby/" class="list-group-item">Ruby <span class="badge badge-pill badge-default">2</span></a>
     
   </div>
 </div>
@@ -76,11 +70,30 @@
       
       <div class="card col-md-4">
         <div class="card-block">
-          <h4 class="card-title">RxJS</h4>
+          <h4 class="card-title"><a href="http://tei1988.github.io/post/my-awesome-ruby-gems/">Awesome Ruby Gems</a></h4>
           <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/reactive-extensions/rxjs">Reactive-Extensions/RxJS</a><br />
-  <p>RxをJSで。RxJavaもやってみたいので、似た考え方を覚えるためにも使っていきたい。</p>
+  <p>便利だと思ったRuby Gemを並べていきます。自分用のメモも兼ねています。</p>
+
+<p><strong>リトライ処理</strong></p>
+
+<ul>
+<li><i class="fa fa-github"></i> <a href="https://github.com/nfedyashev/retryable">nfedyashev/retryable</a><br />
+リトライ処理をブロックで書ける。</li>
+</ul>
+
+<p><strong>モデル拡張</strong></p>
+
+<ul>
+<li><i class="fa fa-github"></i> <a href="https://github.com/solnic/virtus">solnic/virtus</a><br />
+型を明示できて好き。変換なんかもするので、初期化時に型変換するような処理を書く必要が無く、スッキリしやすい。</li>
+</ul>
+
+<p><strong>デバッグなど</strong></p>
+
+<ul>
+<li><i class="fa fa-github"></i> <a href="https://github.com/esminc/tapp">esminc/tapp</a><br />
+<code>.tap { |v| pp v }</code>みたいなことを<code>.tapp</code>で実現できる！プリントデバッグに便利。</li>
+</ul>
 
 </p>
 
@@ -89,9 +102,18 @@
       
       <div class="card col-md-4">
         <div class="card-block">
-          <h4 class="card-title">Roomba Open Interface</h4>
+          <h4 class="card-title"><a href="http://tei1988.github.io/post/rails-memo/">Rails Memo</a></h4>
           <p class="card-text">
-  <p><a href="http://irobot.lv/uploaded_files/File/iRobot_Roomba_500_Open_Interface_Spec.pdf">Roombaプロトコルの仕様書</a></p>
+  <p>Ruby on Rails関係で、覚えておきたい記事などをメモしていきます。</p>
+
+<p><strong>セキュリティ関係</strong></p>
+
+<ul>
+<li><a href="https://rails-sqli.org/">Rails SQL Injection</a><br />
+ActiveRecordを使っていてあるあるなSQLインジェクションが纏められている。</li>
+<li><a href="https://railsguides.jp/security.html">Rails セキュリティガイド</a>
+よくある脆弱性の紹介と Railsでの対応方法が纏められている。</li>
+</ul>
 
 </p>
 
@@ -100,92 +122,25 @@
       
       <div class="card col-md-4">
         <div class="card-block">
-          <h4 class="card-title">retryable</h4>
+          <h4 class="card-title"><a href="http://tei1988.github.io/post/roomba-hack/">Roomba Hack</a></h4>
           <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/nfedyashev/retryable">nfedyashev/retryable</a><br />
-  <p>リトライ処理をブロックでかける。よさげ。</p>
+  <p>Roombaをハックします。メモです。</p>
 
-</p>
+<p>持っているのはRoomba 621で、スケジュール機能がありません。<br />
+そこでとりあえずの目標として、Raspberry Pi ZeroにArchLinuxを乗せて、Roombaにスケジュール機能を持たせます。</p>
 
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">tapp</h4>
-          <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/esminc/tapp">esminc/tapp</a><br />
-  <p>メソッドチェーンでデバッグ出力が出せる。良い。</p>
+<p><strong>部品</strong></p>
 
-</p>
+<ul>
+<li><i class="fa fa-microchip"></i> ROHM BP5293-50<br />
+7〜26V <i class="fa fa-arrow-right"></i> 5V<br />
+Raspberry Pi Zeroに対してバッテリーの電圧が結構高いので、降圧します。<br />
+<a href="http://akizukidenshi.com/catalog/g/gM-11188/">秋月電子通商</a>で購入しました。</li>
+</ul>
 
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">virtus</h4>
-          <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/solnic/virtus">solnic/virtus</a><br />
-  <p>型を明示するので好き。変換なんかもするので、文字列なら〜…みたいな処理を書く必要も無く、スッキリしやすい。</p>
+<p><strong>プロトコル仕様</strong></p>
 
-</p>
-
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">BP5293-33</h4>
-          <p class="card-text">
-  <i class="fa fa-building-o"></i>ROHM<br />
-  <i class="fa fa-microchip"></i>BP5293-33<br />
-  <i class="fa fa-shopping-cart"></i><a href="http://akizukidenshi.com/catalog/g/gM-11187/">秋月電子通商</a><br />
-  <p>7〜26V <i class="fa fa-arrow-right"></i> 3.3V</p>
-
-</p>
-
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">BP5293-50</h4>
-          <p class="card-text">
-  <i class="fa fa-building-o"></i>ROHM<br />
-  <i class="fa fa-microchip"></i>BP5293-50<br />
-  <i class="fa fa-shopping-cart"></i><a href="http://akizukidenshi.com/catalog/g/gM-11188/">秋月電子通商</a><br />
-  <p>7〜26V <i class="fa fa-arrow-right"></i> 5V</p>
-
-</p>
-
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">RN42-I/RM</h4>
-          <p class="card-text">
-  <i class="fa fa-building-o"></i>Microchip Technology Inc.<br />
-  <i class="fa fa-microchip"></i>RN42-I/RM<br />
-  <i class="fa fa-shopping-cart"></i><a href="http://akizukidenshi.com/catalog/g/gM-07612/">秋月電子通商</a><br />
-  <p>Bluetoothモジュール。3.3V駆動。</p>
-
-</p>
-
-        </div>
-      </div>
-      
-      <div class="card col-md-4">
-        <div class="card-block">
-          <h4 class="card-title">okhttp</h4>
-          <p class="card-text">
-  <i class="fa fa-github"></i>Github<br />
-  <a href="https://github.com/square/okhttp">square/okhttp</a><br />
-  <p>JavaのHTTP+HTTP/2クライアント。よさげ。</p>
+<p><a href="http://irobot.lv/uploaded_files/File/iRobot_Roomba_500_Open_Interface_Spec.pdf">Roombaプロトコルの仕様書</a></p>
 
 </p>
 

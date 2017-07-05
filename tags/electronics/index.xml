@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Electronics on 興味のあるもの</title>
-    <link>http://tei1988.github.io/categories/electronics/</link>
+    <link>http://tei1988.github.io/tags/electronics/</link>
     <description>Recent content in Electronics on 興味のあるもの</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy;2017</copyright>
     
-	<atom:link href="http://tei1988.github.io/categories/electronics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tei1988.github.io/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
