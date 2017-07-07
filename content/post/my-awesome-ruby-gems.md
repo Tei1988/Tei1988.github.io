@@ -17,6 +17,8 @@ template: article.html
 
 - <i class="fa fa-github"></i> [solnic/virtus](https://github.com/solnic/virtus)  
   型を明示できて好き。変換なんかもするので、初期化時に型変換するような処理を書く必要が無く、スッキリしやすい。
+- <i class="fa fa-github"></i> [attr-encrypted/attr_encrypted](https://github.com/attr-encrypted/attr_encrypted)  
+  簡単にパスワードなどの暗号化・複合化を実装できる。迷わずやったほうが良い。
 
 **デバッグなど**
 
