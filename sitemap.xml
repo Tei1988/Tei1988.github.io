@@ -12,13 +12,27 @@
   </url>
   
   <url>
+    <loc>http://tei1988.github.io/tags/electronics/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://tei1988.github.io/categories/electronics/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tei1988.github.io/tags/electronics/</loc>
+    <loc>http://tei1988.github.io/tags/fountain-pen/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tei1988.github.io/categories/hobby/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tei1988.github.io/post/fountain-pen/</loc>
   </url>
   
   <url>
